@@ -1,7 +1,7 @@
 import "./styles.css";
 import { reducer, initialState } from "./reducer";
 import { useReducer, useState } from "react";
-
+// bla ba
 export default function App() {
   const [state, dispatch] = useReducer(reducer, initialState);
 
@@ -9,7 +9,7 @@ export default function App() {
     dispatch(e.target.value);
     console.log(e.target.value);
   };
-
+  //
   return (
     <div className="App">
       <h2>{state.number}</h2>
