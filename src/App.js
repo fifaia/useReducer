@@ -4,7 +4,7 @@ import { useReducer, useState } from "react";
 // bla ba
 export default function App() {
   const [state, dispatch] = useReducer(reducer, initialState);
-
+  // asd
   const onChange = (e) => {
     dispatch(e.target.value);
     console.log(e.target.value);
